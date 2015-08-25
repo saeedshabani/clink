@@ -1,0 +1,436 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: redirect links\n"
+"POT-Creation-Date: 2015-08-24 01:45+0330\n"
+"PO-Revision-Date: 2015-08-24 11:16+0330\n"
+"Last-Translator: \n"
+"Language-Team: aryan themes <info@aryanthemes.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/admin.php:21 admin/admin.php:33
+msgid "Global Clink Settings"
+msgstr "تنظیمات همگانی کلینک"
+
+#: admin/admin.php:22
+msgid "Global Settings"
+msgstr "تنظیمات همگانی"
+
+#: admin/admin.php:54
+msgid ""
+"Enter the clink plugin base slug for links. In default it set to "
+"<code>clink</code>"
+msgstr ""
+"slug پایه برای لینک های افزونه کلینک را وارد کنید. در حالت پیشفرض slug پایه "
+"برابر با <code>clink</code> می باشد."
+
+#: admin/admin.php:55
+#, php-format
+msgid "Current links structure is like: <code>%s</code>"
+msgstr "ساختار لینک های فعلی مانند <code>%s</code> است."
+
+#: admin/admin.php:70 admin/admin.php:86 inc/meta-box.php:107
+msgid "Yes"
+msgstr "بله"
+
+#: admin/admin.php:71 admin/admin.php:87 inc/meta-box.php:108
+msgid "No"
+msgstr "خیر"
+
+#: admin/admin.php:72
+msgid ""
+"Do you want to display <code>Powered By Aryan Themes</code> text in redirect "
+"page?"
+msgstr ""
+"آیا می خواهید  متن <code>طراحی شده توسط آرین تمز</code> در صفحه انتقال لینک "
+"ها نمایش داده شود؟"
+
+#: admin/admin.php:88 inc/meta-box.php:109
+msgid "Do you want to show a countdown before redirect?"
+msgstr "آیا می خواهید قبل از تغییر مسیر صفحه از شمارش معکوس استفاده کنید؟"
+
+#: admin/admin.php:89 inc/meta-box.php:110
+msgid "Notice"
+msgstr "توجه"
+
+#: admin/admin.php:89
+msgid ""
+"When you add or edit links, you can manage this option for each link "
+"Separately."
+msgstr ""
+"شما این گزینه را به صورت جداگانه برای هر لینک در زمان افزودن یا ویرایش لینک "
+"ها می توانید مدیریت کنید."
+
+#: admin/admin.php:96
+msgid ""
+"Enter the redirect countdown duration in seconds (example : 20). In default "
+"it set to 10 (seconds)."
+msgstr ""
+"مدت زمان شمارش معکوس را بر حسب ثانیه وارد کنید (برای مثال : 20). در حالت "
+"پیشفرض مقدار این بخش روی 10 (ثانیه) تنظیم شده است."
+
+#: admin/admin.php:104
+msgid "base slug"
+msgstr "slug پایه"
+
+#: admin/admin.php:105
+msgid "Powered By Aryan Themes"
+msgstr "طراحی شده توسط آزین تمز"
+
+#: admin/admin.php:106 inc/meta-box.php:87
+msgid "countdown"
+msgstr "شمارش معکوس"
+
+#: admin/admin.php:107
+msgid "countdown duration"
+msgstr "مدت زمان شمارش معکوس"
+
+#: clink-template.php:49
+msgid "You will redirect to the destination link In a moment"
+msgstr "تا لحظاتی دیگر شما به لینک مقصد هدایت می شوید"
+
+#: clink-template.php:51
+#, php-format
+msgid ""
+"If the page does not redirect automatically, click on <a href=\"%s\">this "
+"link</a>"
+msgstr ""
+"در صورتی که به صورت خودکار منتقل نشدید، روی <a href=\"%s\">این لینک</a> کلیک "
+"کنید"
+
+#: clink-template.php:56
+#, php-format
+msgid "Powered By <a href=\"%s\">Aryan Themes</a>"
+msgstr "طراحی شده توسط <a href=\"%s\">آرین تمز</a>"
+
+#: clink-template.php:77 clink-template.php:82
+msgid "<strong>Clink:</strong> An error occurred."
+msgstr "<strong>کلینک:</strong> خطایی رخ داده است."
+
+#: inc/cpt.php:9 inc/cpt.php:10
+msgid "Clink"
+msgstr "کلینک"
+
+#: inc/cpt.php:11 inc/cpt.php:12
+msgid "clink"
+msgstr "کلینک"
+
+#: inc/cpt.php:13
+msgid "Add New"
+msgstr "مورد جدید"
+
+#: inc/cpt.php:14
+msgid "Add New Link"
+msgstr "اضافه کردن لینک جدید"
+
+#: inc/cpt.php:15
+msgid "New Link"
+msgstr "لینک جدید"
+
+#: inc/cpt.php:16
+msgid "Edit Link"
+msgstr "ویرایش لینک"
+
+#: inc/cpt.php:17
+msgid "View Link"
+msgstr "نمایش لینک"
+
+#: inc/cpt.php:18
+msgid "All Links"
+msgstr "همه لینک ها"
+
+#: inc/cpt.php:19
+msgid "Search Links"
+msgstr "جستجو لینک ها"
+
+#: inc/cpt.php:20
+msgid "Parent Links:"
+msgstr "لینک های مادر:"
+
+#: inc/cpt.php:21
+msgid "No links found"
+msgstr "هیچ لینکی پیدا نشد"
+
+#: inc/cpt.php:22
+msgid "No links found in Trash"
+msgstr "هیچ لینکی در سطل زباله نیست."
+
+#: inc/cpt.php:74
+msgid "undefined"
+msgstr "تعریف نشده"
+
+#: inc/cpt.php:97
+msgid "Title"
+msgstr "عنوان"
+
+#: inc/cpt.php:98
+msgid "Redirect Url"
+msgstr " لینک مقصد"
+
+#: inc/cpt.php:99 inc/meta-box.php:59
+msgid "Permalink"
+msgstr "لینک ثابت"
+
+#: inc/cpt.php:100 inc/meta-box.php:63
+msgid "Clicks"
+msgstr "کلیک ها"
+
+#: inc/cpt.php:101
+msgid "Author"
+msgstr "نویسنده"
+
+#: inc/cpt.php:102
+msgid "Date"
+msgstr "تاریخ"
+
+#: inc/meta-box.php:24
+msgid "Link Informations"
+msgstr "اطلاعات لینک"
+
+#: inc/meta-box.php:32
+msgid "Stats and Info"
+msgstr "آمار و اطلاعات"
+
+#: inc/meta-box.php:80
+msgid "Redirect Link URL"
+msgstr "آدرس لینک (لینک مقصد)"
+
+#: inc/meta-box.php:83
+msgid "Please enter the redirect link URL in this filed."
+msgstr ""
+"لطفا آدرس لینک مقصد (لینکی که می خواهید این صفحه به آن منتقل شود) را در این "
+"فیلد وارد نمایید."
+
+#: inc/meta-box.php:106
+msgid "Based on global settings"
+msgstr "بر اساس تنظیمات همگانی"
+
+#: inc/meta-box.php:110
+msgid ""
+"The value of this option only applied to this link. If you want to use "
+"global countdown settings, please select <code>Based on global settings</"
+"code>"
+msgstr ""
+"مقدار این گزینه تنها بر روی این لینک اعمال می شود. اگر می خواهید از تنظیمات "
+"همگانی شمارش معکوس استفاده شود, لطفا گزینه <code>بر اساس تنظیمات همگانی</"
+"code> را انتخاب نمایید."
+
+#~ msgid ""
+#~ "The value of this option only applied to this link. If you want to use "
+#~ "global countdown settings (from Global Clink Settings) please select "
+#~ "<code>Based on global settings</code>"
+#~ msgstr ""
+#~ "مقدار این گزینه تنها بر روی این لینک اعمال می شود. اگر می خواهید از "
+#~ "تنظیمات کلی شمارش معکوس استفاده شود, لطفا گزینه <code>بر اساس تنظیمات "
+#~ "کلی</code> را انتخاب نمایید."
+
+#~ msgid "Clink Settings"
+#~ msgstr "تنظیمات کلینک"
+
+#~ msgid "The value of this option only applied to this link."
+#~ msgstr "مقدار این گزینه تنها بر روی این لینک اعمال می شود."
+
+#~ msgid "<strong>Clink:</strong> An error occurred"
+#~ msgstr "<strong>کلینک:</strong> خطایی رخ داده است."
+
+#~ msgid "An error occurred"
+#~ msgstr "خطایی روی داده است"
+
+#~ msgid "An error occurred, <a href=\"%s\">Back to homepage</a>"
+#~ msgstr "خطا رخ داد، <a href=\"%s\">بازگشت به صفحه اصلی</a>"
+
+#~ msgid "Coupling Settings"
+#~ msgstr "تنظیمات کوپلینگ"
+
+#~ msgid ""
+#~ "Enter the coupling plugin base slug for links. In default it set to "
+#~ "<code>coupling</code>"
+#~ msgstr ""
+#~ "slug پایه برای لینک های افزونه کوپلینگ را وارد کنید. در حالت پیشفرض slug "
+#~ "پایه برابر با <code>coupling</code> می باشد."
+
+#~ msgid "Coupling"
+#~ msgstr "کوپلینگ"
+
+#~ msgid "coupling"
+#~ msgstr "کوپلینگ"
+
+#~ msgid "Peyvand Settings"
+#~ msgstr "تنظیمات پیوند"
+
+#~ msgid ""
+#~ "Enter the peyvand plugin base slug for links. In default it set to "
+#~ "<code>peyvand</code>"
+#~ msgstr ""
+#~ "slug پایه برای لینک های افزونه پیوند را وارد کنید. در حالت پیشفرض slug "
+#~ "پایه برابر با <code>peyvand</code> می باشد."
+
+#~ msgid "Peyvand"
+#~ msgstr "پیوند"
+
+#~ msgid "peyvand"
+#~ msgstr "پیوند"
+
+#~ msgid ""
+#~ "You can manage this option for each link Separately, when you add or edit "
+#~ "links."
+#~ msgstr ""
+#~ "شما این گزینه را به صورت جداگانه برای هر لینک در زمان افزودن یا ویرایش "
+#~ "لینک ها می توانید مدیریت کنید."
+
+#~ msgid ""
+#~ "Enter the peyvand plugin base slug for links. In default it set to "
+#~ "<code>peyvand</code>."
+#~ msgstr ""
+#~ "slug پایه برای لینک های افزونه پیوند را وارد کنید. در حالت پیشفرض slug "
+#~ "پایه برابر با <code>peyvand</code> می باشد."
+
+#~ msgid ""
+#~ "Enter the peyvand plugin base slug for links. In default it set to "
+#~ "peyvand."
+#~ msgstr ""
+#~ "slug پایه برای لینک های افزونه پیوند را وارد کنید. در حالت پیشفرض slug "
+#~ "پایه برابر با peyvand می باشد."
+
+#~ msgid ""
+#~ "Do you want to display \"Powered By Aryan Themes\" text in redirect page?"
+#~ msgstr ""
+#~ "آیا می خواهید  متن \"طراحی شده توسط آرین تمز\" در صفحه انتقال لینک ها "
+#~ "نمایش داده شود؟"
+
+#~ msgid "Redirect links"
+#~ msgstr "انتقال لینک ها"
+
+#~ msgid "Redirect link"
+#~ msgstr "انتقال لینک"
+
+#~ msgid "Search Redirect Links"
+#~ msgstr "جستجو لینک های انتقالی"
+
+#~ msgid "No redirect links found"
+#~ msgstr "هیچ لینک انتقالی پیدا نشد"
+
+#~ msgid "No redirect links found in Trash"
+#~ msgstr "هیچ لینک انتقالی در زباله دان پیدا نشد"
+
+#~ msgid "peyvand base slug"
+#~ msgstr "slug پایه پیوند"
+
+#~ msgid "Settings"
+#~ msgstr "تنظیمات"
+
+#~ msgid "Redirect Link Settings"
+#~ msgstr "تنظیمات انتقال لینک ها"
+
+#~ msgid "Redirect Link Informations"
+#~ msgstr "اطلاعات لینک انتقالی"
+
+#~ msgid "Enter the peyvand base slug for links. In default it set to peyvand."
+#~ msgstr ""
+#~ "slug پایه برای لینک های افزونه پیوند را وارد کنید. در حالت پیشفرض slug "
+#~ "پایه برابر با peyvand می باشد."
+
+#~ msgid ""
+#~ "Enter the redirect link main slug. In default it set to redirect_link."
+#~ msgstr ""
+#~ "slug اصلی لینک های انتقالی را وارد کنید. در حالت پیشفرض slug لینک های "
+#~ "انتقالی برابر با redirect_link می باشد."
+
+#~ msgid "Current redirect links structure is like: <code>%s</code>"
+#~ msgstr "در حال حاضر ساختار لینک های انتقالی شبیه به <code>%s</code> است."
+
+#~ msgid "redirect link slug"
+#~ msgstr "slug انتقال لینک ها"
+
+#~ msgid "Redirect Links"
+#~ msgstr "انتقال لینک ها"
+
+#~ msgid "Powered By Text"
+#~ msgstr "متن قدرت گرفته از"
+
+#~ msgid "Display the Powered By text in redirect page?"
+#~ msgstr ""
+#~ "آیا می خواهید متن قدرت گرفته از ... در صفحه انتقال لینک ها نمایش داده شود؟"
+
+#~ msgid "redirect url"
+#~ msgstr "لینک ارجاع"
+
+#~ msgid "please enter the target link"
+#~ msgstr "لطفا لینکی که می خواهید به ان منتقل شوید را وارد کنید."
+
+#~ msgid "Please write the redirect link URL in this filed"
+#~ msgstr "لطفا آدرس لینک انتقالی را در این فیلد وارد نمایید."
+
+#~ msgid ""
+#~ "Enter the redirect countdown duration in seconds (example : 20). In "
+#~ "default it set to 10 (seconds)"
+#~ msgstr ""
+#~ "مدت زمان شمارش معکوس را بر حسب ثانیه وارد کنید (برای مثال : 20). در حالت "
+#~ "پیشفرض مقدار این بخش روی 10 (ثانیه) تنظیم شده است."
+
+#~ msgid ""
+#~ "Enter the redirect countdown duration in second (example : 20). default 10"
+#~ msgstr ""
+#~ "مدت زمان شمارش معکوس را بر حسب ثانیه وارد کنید (برای مثال : 20). پیفرض 10"
+
+#~ msgid "Enter the redirect countdown duration in second (example : 20)"
+#~ msgstr "مدت زمان شمارش معکوس را بر حسب ثانیه وارد کنید (مثل : 20)"
+
+#~ msgid "If the page does not redirect automatically, click on %s"
+#~ msgstr ""
+#~ "در صورتی که به صورت خودکار به صفحه مقصد منتقل نشدید, روی %s کلیک کنید."
+
+#~ msgctxt "aryan-themes"
+#~ msgid "We Can Redirect Your Links In A New Way"
+#~ msgstr "ما می توانیم لینک های شما را به روش جدیدی منتقل کنیم."
+
+#~ msgctxt "aryan_themes"
+#~ msgid "Redirect links"
+#~ msgstr "انتقال لینک ها"
+
+#~ msgctxt "aryan_themes"
+#~ msgid "Redirect link"
+#~ msgstr "انتقال لینک"
+
+#~ msgctxt "aryan_themes"
+#~ msgid "Add New"
+#~ msgstr "مورد جدید"
+
+#~ msgctxt "aryan_themes"
+#~ msgid "Add New Link"
+#~ msgstr "اضافه کردن لینک جدید"
+
+#~ msgctxt "aryan_themes"
+#~ msgid "Edit Link"
+#~ msgstr "ویرایش لینک"
+
+#~ msgctxt "aryan_themes"
+#~ msgid "New Link"
+#~ msgstr "لینک جدید"
+
+#~ msgctxt "aryan_themes"
+#~ msgid "View Link"
+#~ msgstr "نمایش لینک"
+
+#~ msgctxt "aryan_themes"
+#~ msgid "Search Redirect Links"
+#~ msgstr "جستجو لینک های انتقالی"
+
+#~ msgctxt "aryan_themes"
+#~ msgid "No redirect links found"
+#~ msgstr "هیچ لینک انتقالی پیدا نشد"
+
+#~ msgctxt "aryan_themes"
+#~ msgid "No redirect links found in Trash"
+#~ msgstr "هیچ لینک انتقالی در زباله دان پیدا نشد"

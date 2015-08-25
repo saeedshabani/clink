@@ -1,0 +1,59 @@
+
+/*
+Plugin name: Clink - Countdown then Redirect links
+Plugin URI: http://aryanthemes.com
+Version: 1.0
+Author: Aryan Themes
+Author URI: http://aryanthemes.com
+License: GPLv2 or later
+*/
+
+.clink-main-dashicons {
+    font-size: 28px;
+    margin-right: 15px;
+}
+
+body.rtl .clink-main-dashicons {
+	margin-right: 0;
+    margin-left: 15px;
+}
+
+.clink-permalink{
+    direction: ltr;
+    display: block;
+    text-align: left;
+    width: 100%;
+	font-family: monospace;
+}
+
+p.description.clink-description {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.clink-description,
+p.clink-description,
+.description.clink-description,
+.clink-description label,
+.description.clink-description label{
+    font-family: Tahoma,Arial,sans-serif;
+    font-size: 13px;
+}
+
+.locale-fa-ir p.description.clink-description {
+    font-style: normal;
+}
+
+.clink-yes-no {
+    margin-right: 10px;
+	margin-left: 0;
+}
+
+body.rtl .clink-yes-no {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.clink-notice{
+	color: red;
+}

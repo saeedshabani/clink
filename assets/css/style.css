@@ -1,0 +1,118 @@
+
+/*
+Plugin name: Clink - Countdown then Redirect links
+Plugin URI: http://aryanthemes.com
+Version: 1.0
+Description: Clink - Countdown then Redirect links is a WordPress plugin to manage 301 redirections and count their visits. You can use a countdown before redirect to links.
+Author: Aryan Themes
+Author URI: http://aryanthemes.com
+tags: 301, affiliates, click tracking, custom post types, external-links, link manager, links, outbound links, pretty links, redirect, countdown, counter
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+p{
+	margin: 10px 0;
+}
+p:first-child{
+	margin-top: 0;
+}
+p:last-child{
+	margin-bottom: 0;
+}
+a{
+	color: #0399ce;
+	text-decoration: none;
+}
+body{
+	background-color: #ddd;
+	color: #555;
+	font-family: fantasy;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-shadow: none;
+	text-align: center;
+}
+body.rtl{
+	direction: rtl;
+	text-align: right;
+}
+.clink-page{
+	text-align: center;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+}
+.container{
+	margin: 0 auto;
+	width: 80%;
+	position: relative;
+	top: 50%;
+	margin-top: -15px;
+}
+#countdown {
+    margin: 40px auto 30px;
+    position: relative;
+}
+#countdown:before {
+    border: 2px solid #dadada;
+    border-radius: 999999em;
+    content: "";
+    display: block;
+    height: 199px;
+    margin-right: -101px;
+    position: absolute;
+    right: 50%;
+    top: 1px;
+    width: 199px;
+    z-index: -1;
+}
+.clink-box{
+	color: #acacac;
+}
+.aryan-themes {
+	background-color: #ddd;
+    border-top: 1px solid #d9d9d9;
+    bottom: 0;
+    font-family: Comic Sans MS;
+    left: 0;
+    margin: 40px 0 0;
+    padding: 10px 2px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+.aryan-themes p {
+    opacity: 0.24;
+	transition: all 0.4s ease 0s;
+}
+.aryan-themes:hover p{
+    opacity: 0.80;
+}
+
+@media only screen and (max-height:480px){
+	#countdown {
+		margin: 40px auto 30px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	p{
+		margin: 5px 0;
+	}
+	p:first-child{
+		margin-top: 0;
+	}
+	p:last-child{
+		margin-bottom: 0;
+	}
+}
+@media only screen and (max-height:440px){
+	.aryan-themes{
+		display: none;
+	}
+}

@@ -1,0 +1,31 @@
+
+/*
+Plugin name: Clink - Countdown then Redirect links
+Plugin URI: http://aryanthemes.com
+Version: 1.0
+Author: Aryan Themes
+Author URI: http://aryanthemes.com
+License: GPLv2 or later
+*/
+
+/* Defined new Persian fonts */
+
+@font-face {
+    font-family: "aryan-themes-com-WYekan-Bold";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/aryan-themes-com-YekanWeb-Bold.woff") format("woff");
+}
+
+
+body{
+	font-family: "tahoma";
+}
+
+.clink-box{
+	font-family: "aryan-themes-com-WYekan-Bold";
+}
+
+.aryan-themes{
+	font-family: "aryan-themes-com-WYekan-Bold";
+}
