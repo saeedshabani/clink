@@ -1,16 +1,4 @@
-
-/*
-Plugin name: Clink - Countdown then Redirect links
-Plugin URI: http://aryanthemes.com
-Version: 1.0
-Description: Clink - Countdown then Redirect links is a WordPress plugin to manage 301 redirections and count their visits. You can use a countdown before redirect to links.
-Author: Aryan Themes
-Author URI: http://aryanthemes.com
-tags: 301, affiliates, click tracking, custom post types, external-links, link manager, links, outbound links, pretty links, redirect, countdown, counter
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-*/
-
+/* Clink countdown page style */
 
 p{
 	margin: 10px 0;
@@ -25,21 +13,19 @@ a{
 	color: #0399ce;
 	text-decoration: none;
 }
-body{
-	background-color: #ddd;
-	color: #555;
-	font-family: fantasy;
-	font-size: 100%;
-	margin: 0;
-	padding: 0;
-	border: none;
-	box-shadow: none;
-	text-align: center;
+body {
+    background-color: #ddd !important;
+    background-image: none !important;
+    border: none !important;
+    box-shadow: none;
+    color: #555 !important;
+    font-family: Georgia,"Bitstream Vera Serif","Times New Roman",serif !important;
+    font-size: 100% !important;
+    margin: 0;
+    padding: 0;
+    text-align: center !important;
 }
-body.rtl{
-	direction: rtl;
-	text-align: right;
-}
+
 .clink-page{
 	text-align: center;
 	right: 0;
@@ -47,6 +33,10 @@ body.rtl{
 	top: 0;
 	bottom: 0;
 	position: absolute;
+	height: 100%;
+	max-height: 100%;
+    width: 100%;
+	max-width: 100%;
 }
 .container{
 	margin: 0 auto;
@@ -115,4 +105,14 @@ body.rtl{
 	.aryan-themes{
 		display: none;
 	}
+}
+
+/* Clink RTL countdown page style */
+
+body.rtl,
+html[dir="rtl"] body,
+body[dir="rtl"]{
+	direction: rtl;
+	text-align: right;
+	font-family: tahoma !important;
 }

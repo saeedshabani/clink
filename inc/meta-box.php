@@ -2,6 +2,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
+
 /**
  * Add Clink meta box's to the links edit screen.
  */
@@ -25,6 +26,7 @@ function clink_info_meta_box() {
 	);	
 }
 add_action( 'add_meta_boxes', 'clink_info_meta_box' );
+
 
 /**
  * Prints the box content.
@@ -56,7 +58,7 @@ function clink_link_info_callback( $post ) {
 	$post_id = $post->ID;
 	// Add a nonce field so we can check for it later.
 	wp_nonce_field( '_clink_link_info_nonce', 'clink_link_info' ); 
-	
+
 	
 	echo '<table class="form-table">';
 		echo '<tbody>';
@@ -155,6 +157,21 @@ function clink_info_save( $post_id ) {
 		}	
 	}else{
 		update_post_meta( $post_id, 'clink_post_countdown', null );
+	}
+	
+	$clicks_key = 'clink_clicks';
+	$clicks = get_post_meta($post_id, $clicks_key, true);
+	//If the the Post Custom Field value is empty. 
+	if($clicks == ''){
+		$clicks = 0; // set the clicks to one.
+		
+		//Delete all custom fields with the specified key from the specified post. 
+		delete_post_meta($post_id, $clicks_key);
+					 
+		//Add a custom (meta) field (Name/value)to the specified post.
+		add_post_meta($post_id, $clicks_key, $clicks);
+				 
+		//If the the Post Custom Field value is NOT empty.
 	}
 }
 add_action( 'save_post', 'clink_info_save' );

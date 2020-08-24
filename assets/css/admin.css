@@ -1,23 +1,9 @@
-
-/*
-Plugin name: Clink - Countdown then Redirect links
-Plugin URI: http://aryanthemes.com
-Version: 1.0
-Author: Aryan Themes
-Author URI: http://aryanthemes.com
-License: GPLv2 or later
-*/
+/* Clink Admin Style */
 
 .clink-main-dashicons {
     font-size: 28px;
     margin-right: 15px;
 }
-
-body.rtl .clink-main-dashicons {
-	margin-right: 0;
-    margin-left: 15px;
-}
-
 .clink-permalink{
     direction: ltr;
     display: block;
@@ -25,12 +11,17 @@ body.rtl .clink-main-dashicons {
     width: 100%;
 	font-family: monospace;
 }
-
+.clink-style-textarea {
+    min-height: 200px;
+    width: 100%;
+	direction: ltr;
+	text-align:left;
+	font-family: Consolas,​Monaco,​monospace;
+}
 p.description.clink-description {
     margin-left: 1px;
     margin-right: 1px;
 }
-
 .clink-description,
 p.clink-description,
 .description.clink-description,
@@ -39,21 +30,120 @@ p.clink-description,
     font-family: Tahoma,Arial,sans-serif;
     font-size: 13px;
 }
-
 .locale-fa-ir p.description.clink-description {
     font-style: normal;
 }
-
 .clink-yes-no {
     margin-right: 10px;
 	margin-left: 0;
 }
+.clink-notice{
+	color: red;
+}
+.clink-row:before,
+.clink-row:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.clink-col {
+    box-sizing: border-box;
+    float: left;
+}
+.clink-col-70{
+	width: 70%;
+}
+.clink-col-20{
+	width: 20%;
+	text-align: center;
+}
+.clink-col-10{
+	width: 10%;
+	text-align: center;
+}
+.clink_dashboard_widget_header {
+    font-weight: bold;
+}
+.clink_dashboard_widget_body {
+    line-height: 1.6em;
+}
+.clink_dashboard_widget_body li {
+    background-color: #fafafa;
+    border: 1px solid #eaeaea;
+    padding-top: 4px;
+    position: relative;
+}
+.clink_dashboard_widget_body li:before {
+    background-color: #eeeeee;
+    border-bottom: 1px solid #dedede;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.clink_dashboard_widget_body a {
+    display: block;
+}
+.clink_dashboard_widget_body .clink-col {
+    padding: 8px 6px;
+    word-wrap: break-word;
+	border-right: 1px solid #eaeaea;
+}
+.clink_dashboard_widget_body .clink-col:last-child{
+	border-right: none;
+}
+.clink_dashboard_widget_body .clink-clicks {
+    direction: rtl;
+}
+.clink_dashboard_widget_body .clink-col.clink-redirect,
+.clink_dashboard_widget_body .clink-col.clink-edit-link {
+    padding: 0;
+}
+.clink_dashboard_widget_body .clink-col.clink-redirect a,
+.clink_dashboard_widget_body .clink-col.clink-edit-link a {
+    padding: 8px 6px;
+}
+.clink-clicks-bar {
+    background-color: #52accc;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+.clink-redirect {
+    direction: ltr;
+    font-family: monospace;
+}
 
+/* Clink Admin RTL Style */
+
+body.rtl .clink-main-dashicons {
+	margin-right: 0;
+    margin-left: 15px;
+}
 body.rtl .clink-yes-no {
 	margin-right: 0;
 	margin-left: 10px;
 }
-
-.clink-notice{
-	color: red;
+body.rtl .clink-col {
+    float: right;
+}
+body.rtl .clink-clicks-bar {
+    left: auto;
+    right: 0;
+}
+body.rtl .clink_dashboard_widget_body .clink-col {
+	border-right: none;
+	border-left: 1px solid #eaeaea;
+}
+body.rtl .clink_dashboard_widget_body .clink-col:last-child{
+	border-left: none;
+}
+body.rtl .clink_dashboard_widget_body .clink-clicks {
+    direction: ltr;
 }

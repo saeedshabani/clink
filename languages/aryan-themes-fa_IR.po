@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: redirect links\n"
-"POT-Creation-Date: 2015-08-24 01:45+0330\n"
-"PO-Revision-Date: 2015-08-24 11:16+0330\n"
+"POT-Creation-Date: 2015-09-26 01:32+0330\n"
+"PO-Revision-Date: 2015-09-26 01:33+0330\n"
 "Last-Translator: \n"
 "Language-Team: aryan themes <info@aryanthemes.com>\n"
 "Language: fa_IR\n"
@@ -19,88 +19,11 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: admin/admin.php:21 admin/admin.php:33
-msgid "Global Clink Settings"
-msgstr "تنظیمات همگانی کلینک"
-
-#: admin/admin.php:22
-msgid "Global Settings"
-msgstr "تنظیمات همگانی"
-
-#: admin/admin.php:54
-msgid ""
-"Enter the clink plugin base slug for links. In default it set to "
-"<code>clink</code>"
-msgstr ""
-"slug پایه برای لینک های افزونه کلینک را وارد کنید. در حالت پیشفرض slug پایه "
-"برابر با <code>clink</code> می باشد."
-
-#: admin/admin.php:55
-#, php-format
-msgid "Current links structure is like: <code>%s</code>"
-msgstr "ساختار لینک های فعلی مانند <code>%s</code> است."
-
-#: admin/admin.php:70 admin/admin.php:86 inc/meta-box.php:107
-msgid "Yes"
-msgstr "بله"
-
-#: admin/admin.php:71 admin/admin.php:87 inc/meta-box.php:108
-msgid "No"
-msgstr "خیر"
-
-#: admin/admin.php:72
-msgid ""
-"Do you want to display <code>Powered By Aryan Themes</code> text in redirect "
-"page?"
-msgstr ""
-"آیا می خواهید  متن <code>طراحی شده توسط آرین تمز</code> در صفحه انتقال لینک "
-"ها نمایش داده شود؟"
-
-#: admin/admin.php:88 inc/meta-box.php:109
-msgid "Do you want to show a countdown before redirect?"
-msgstr "آیا می خواهید قبل از تغییر مسیر صفحه از شمارش معکوس استفاده کنید؟"
-
-#: admin/admin.php:89 inc/meta-box.php:110
-msgid "Notice"
-msgstr "توجه"
-
-#: admin/admin.php:89
-msgid ""
-"When you add or edit links, you can manage this option for each link "
-"Separately."
-msgstr ""
-"شما این گزینه را به صورت جداگانه برای هر لینک در زمان افزودن یا ویرایش لینک "
-"ها می توانید مدیریت کنید."
-
-#: admin/admin.php:96
-msgid ""
-"Enter the redirect countdown duration in seconds (example : 20). In default "
-"it set to 10 (seconds)."
-msgstr ""
-"مدت زمان شمارش معکوس را بر حسب ثانیه وارد کنید (برای مثال : 20). در حالت "
-"پیشفرض مقدار این بخش روی 10 (ثانیه) تنظیم شده است."
-
-#: admin/admin.php:104
-msgid "base slug"
-msgstr "slug پایه"
-
-#: admin/admin.php:105
-msgid "Powered By Aryan Themes"
-msgstr "طراحی شده توسط آزین تمز"
-
-#: admin/admin.php:106 inc/meta-box.php:87
-msgid "countdown"
-msgstr "شمارش معکوس"
-
-#: admin/admin.php:107
-msgid "countdown duration"
-msgstr "مدت زمان شمارش معکوس"
-
-#: clink-template.php:49
+#: clink-template.php:65
 msgid "You will redirect to the destination link In a moment"
 msgstr "تا لحظاتی دیگر شما به لینک مقصد هدایت می شوید"
 
-#: clink-template.php:51
+#: clink-template.php:67
 #, php-format
 msgid ""
 "If the page does not redirect automatically, click on <a href=\"%s\">this "
@@ -109,114 +32,315 @@ msgstr ""
 "در صورتی که به صورت خودکار منتقل نشدید، روی <a href=\"%s\">این لینک</a> کلیک "
 "کنید"
 
-#: clink-template.php:56
+#: clink-template.php:72
 #, php-format
 msgid "Powered By <a href=\"%s\">Aryan Themes</a>"
 msgstr "طراحی شده توسط <a href=\"%s\">آرین تمز</a>"
 
-#: clink-template.php:77 clink-template.php:82
+#: clink-template.php:136 clink-template.php:146 clink-template.php:157
 msgid "<strong>Clink:</strong> An error occurred."
 msgstr "<strong>کلینک:</strong> خطایی رخ داده است."
 
-#: inc/cpt.php:9 inc/cpt.php:10
-msgid "Clink"
-msgstr "کلینک"
+#: inc/admin-widgets.php:14
+msgid "Popular Links"
+msgstr "لینک های محبوب"
 
-#: inc/cpt.php:11 inc/cpt.php:12
-msgid "clink"
-msgstr "کلینک"
+#: inc/admin-widgets.php:66
+msgid "There are no stats available yet!"
+msgstr "هنوز آماری در دسترس نیست!"
 
-#: inc/cpt.php:13
-msgid "Add New"
-msgstr "مورد جدید"
+#: inc/admin-widgets.php:79
+msgid "Redirect to"
+msgstr "هدایت به"
 
-#: inc/cpt.php:14
-msgid "Add New Link"
-msgstr "اضافه کردن لینک جدید"
-
-#: inc/cpt.php:15
-msgid "New Link"
-msgstr "لینک جدید"
-
-#: inc/cpt.php:16
-msgid "Edit Link"
-msgstr "ویرایش لینک"
-
-#: inc/cpt.php:17
-msgid "View Link"
-msgstr "نمایش لینک"
-
-#: inc/cpt.php:18
-msgid "All Links"
-msgstr "همه لینک ها"
-
-#: inc/cpt.php:19
-msgid "Search Links"
-msgstr "جستجو لینک ها"
-
-#: inc/cpt.php:20
-msgid "Parent Links:"
-msgstr "لینک های مادر:"
-
-#: inc/cpt.php:21
-msgid "No links found"
-msgstr "هیچ لینکی پیدا نشد"
-
-#: inc/cpt.php:22
-msgid "No links found in Trash"
-msgstr "هیچ لینکی در سطل زباله نیست."
-
-#: inc/cpt.php:74
-msgid "undefined"
-msgstr "تعریف نشده"
-
-#: inc/cpt.php:97
-msgid "Title"
-msgstr "عنوان"
-
-#: inc/cpt.php:98
-msgid "Redirect Url"
-msgstr " لینک مقصد"
-
-#: inc/cpt.php:99 inc/meta-box.php:59
-msgid "Permalink"
-msgstr "لینک ثابت"
-
-#: inc/cpt.php:100 inc/meta-box.php:63
+#: inc/admin-widgets.php:80 inc/cpt.php:135 inc/meta-box.php:50
 msgid "Clicks"
 msgstr "کلیک ها"
 
-#: inc/cpt.php:101
+#: inc/admin-widgets.php:81
+msgid "Edit"
+msgstr "ویرایش"
+
+#: inc/admin.php:62 inc/admin.php:78
+msgid "Global Clink Settings"
+msgstr "تنظیمات همگانی کلینک"
+
+#: inc/admin.php:63 inc/admin.php:268
+msgid "Global Settings"
+msgstr "تنظیمات همگانی"
+
+#: inc/admin.php:115
+msgid ""
+"Enter the clink plugin base slug for links. In default it set to "
+"<code>clink</code>"
+msgstr ""
+"slug پایه برای لینک های افزونه کلینک را وارد کنید. در حالت پیشفرض slug پایه "
+"برابر با <code>clink</code> می باشد."
+
+#: inc/admin.php:116
+#, php-format
+msgid "Current links structure is like: <code>%s</code>"
+msgstr "ساختار لینک های فعلی مانند <code>%s</code> است."
+
+#: inc/admin.php:132 inc/admin.php:150 inc/meta-box.php:92
+msgid "Yes"
+msgstr "بله"
+
+#: inc/admin.php:133 inc/admin.php:151 inc/meta-box.php:93
+msgid "No"
+msgstr "خیر"
+
+#: inc/admin.php:134
+msgid ""
+"Do you want to display <code>Powered By Aryan Themes</code> text in redirect "
+"page?"
+msgstr ""
+"آیا می خواهید  متن <code>طراحی شده توسط آرین تمز</code> در صفحه انتقال لینک "
+"ها نمایش داده شود؟"
+
+#: inc/admin.php:152 inc/meta-box.php:94
+msgid "Do you want to show a countdown before redirect?"
+msgstr "آیا می خواهید قبل از تغییر مسیر صفحه از شمارش معکوس استفاده کنید؟"
+
+#: inc/admin.php:153 inc/meta-box.php:95
+msgid "Notice"
+msgstr "توجه"
+
+#: inc/admin.php:153
+msgid ""
+"When you add or edit links, you can manage this option for each link "
+"Separately."
+msgstr ""
+"شما این گزینه را به صورت جداگانه برای هر لینک در زمان افزودن یا ویرایش لینک "
+"ها می توانید مدیریت کنید."
+
+#: inc/admin.php:170
+msgid ""
+"Enter the redirect countdown duration in seconds (example : 20). In default "
+"it set to 10 (seconds)."
+msgstr ""
+"مدت زمان شمارش معکوس را بر حسب ثانیه وارد کنید (برای مثال : 20). در حالت "
+"پیشفرض مقدار این بخش روی 10 (ثانیه) تنظیم شده است."
+
+#: inc/admin.php:178
+msgid "noindex - nofollow"
+msgstr ""
+
+#: inc/admin.php:179
+msgid "noindex - follow"
+msgstr ""
+
+#: inc/admin.php:180
+msgid "index - nofollow"
+msgstr ""
+
+#: inc/admin.php:181
+msgid "index - follow"
+msgstr ""
+
+#: inc/admin.php:183
+msgid "Please select meta tags for countdown page"
+msgstr "لطفا متا تگ های برگه شمارش معکوس را انتخاب نمایید"
+
+#: inc/admin.php:194
+msgid "You can put your custom css style for countdown page here"
+msgstr ""
+"شما می توانید کدهای css دلخواه خودتان را برای سفارشی سازی صفحه شمارش معکوس "
+"در اینجا قرار دهید"
+
+#: inc/admin.php:209
+msgid "base slug"
+msgstr "slug پایه"
+
+#: inc/admin.php:216
+msgid "Powered By Aryan Themes"
+msgstr "طراحی شده توسط آرین تمز"
+
+#: inc/admin.php:224 inc/meta-box.php:73
+msgid "countdown"
+msgstr "شمارش معکوس"
+
+#: inc/admin.php:231
+msgid "countdown duration"
+msgstr "مدت زمان شمارش معکوس"
+
+#: inc/admin.php:238
+msgid "Countdown meta tags"
+msgstr "متا تگ های شمارش معکوس"
+
+#: inc/admin.php:245
+msgid "Custom countdown style"
+msgstr "استایل سفارشی شمارش معکوس"
+
+#: inc/cpt.php:16 inc/cpt.php:17
+msgid "Clink"
+msgstr "کلینک"
+
+#: inc/cpt.php:18 inc/cpt.php:19
+msgid "clink"
+msgstr "کلینک"
+
+#: inc/cpt.php:20
+msgid "Add New"
+msgstr "مورد جدید"
+
+#: inc/cpt.php:21
+msgid "Add New Link"
+msgstr "اضافه کردن لینک جدید"
+
+#: inc/cpt.php:22
+msgid "New Link"
+msgstr "لینک جدید"
+
+#: inc/cpt.php:23
+msgid "Edit Link"
+msgstr "ویرایش لینک"
+
+#: inc/cpt.php:24
+msgid "View Link"
+msgstr "نمایش لینک"
+
+#: inc/cpt.php:25
+msgid "All Links"
+msgstr "همه لینک ها"
+
+#: inc/cpt.php:26
+msgid "Search Links"
+msgstr "جستجو لینک ها"
+
+#: inc/cpt.php:27
+msgid "Parent Links:"
+msgstr "لینک های مادر:"
+
+#: inc/cpt.php:28
+msgid "No links found"
+msgstr "هیچ لینکی پیدا نشد"
+
+#: inc/cpt.php:29
+msgid "No links found in Trash"
+msgstr "هیچ لینکی در سطل زباله نیست."
+
+#: inc/cpt.php:63
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr "دسته بندی ها"
+
+#: inc/cpt.php:64
+msgctxt "taxonomy singular Name"
+msgid "Category"
+msgstr "دسته"
+
+#: inc/cpt.php:65
+msgid "Categories"
+msgstr "دسته بندی ها"
+
+#: inc/cpt.php:66 inc/widgets.php:117
+msgid "All Categories"
+msgstr "همه دسته بندی ها"
+
+#: inc/cpt.php:67
+msgid "Parent Category"
+msgstr "دسته‌ی مادر"
+
+#: inc/cpt.php:68
+msgid "Parent Category:"
+msgstr "دسته‌ی مادر:"
+
+#: inc/cpt.php:69
+msgid "New Category Name"
+msgstr "نام دسته جدید"
+
+#: inc/cpt.php:70
+msgid "Add New Category"
+msgstr "افزودن دسته بندی جدید"
+
+#: inc/cpt.php:71
+msgid "Edit Category"
+msgstr "ویرایش دسته بندی"
+
+#: inc/cpt.php:72
+msgid "Update Category"
+msgstr "به‌روزرسانی دسته بندی"
+
+#: inc/cpt.php:73
+msgid "View Category"
+msgstr "نمایش دسته بندی"
+
+#: inc/cpt.php:74
+msgid "Separate Categories with commas"
+msgstr "دسته‌بندی‌ها را با کاما (ویرگول انگلیسی) جدا کنید"
+
+#: inc/cpt.php:75
+msgid "Add or remove Categories"
+msgstr "افزودن یا حذف دسته بندی ها"
+
+#: inc/cpt.php:76
+msgid "Choose from the most used"
+msgstr "انتخاب از بیشترین استفاده شده ها"
+
+#: inc/cpt.php:77
+msgid "Popular Categories"
+msgstr "دسته بندی های محبوب"
+
+#: inc/cpt.php:78
+msgid "Search Categories"
+msgstr "جست‌وجوی دسته‌بندی‌ها"
+
+#: inc/cpt.php:79
+msgid "Not Found"
+msgstr "پیدا نشد"
+
+#: inc/cpt.php:107
+msgid "undefined"
+msgstr "تعریف نشده"
+
+#: inc/cpt.php:132
+msgid "Title"
+msgstr "عنوان"
+
+#: inc/cpt.php:133
+msgid "Redirect Url"
+msgstr " لینک مقصد"
+
+#: inc/cpt.php:134 inc/meta-box.php:46
+msgid "Permalink"
+msgstr "لینک ثابت"
+
+#: inc/cpt.php:136
 msgid "Author"
 msgstr "نویسنده"
 
-#: inc/cpt.php:102
+#: inc/cpt.php:137
 msgid "Date"
 msgstr "تاریخ"
 
-#: inc/meta-box.php:24
+#: inc/functions.php:181
+msgid "No links found!"
+msgstr "هیچ لینکی پیدا نشد!"
+
+#: inc/meta-box.php:13
 msgid "Link Informations"
 msgstr "اطلاعات لینک"
 
-#: inc/meta-box.php:32
+#: inc/meta-box.php:21
 msgid "Stats and Info"
 msgstr "آمار و اطلاعات"
 
-#: inc/meta-box.php:80
+#: inc/meta-box.php:66
 msgid "Redirect Link URL"
 msgstr "آدرس لینک (لینک مقصد)"
 
-#: inc/meta-box.php:83
+#: inc/meta-box.php:69
 msgid "Please enter the redirect link URL in this filed."
 msgstr ""
 "لطفا آدرس لینک مقصد (لینکی که می خواهید این صفحه به آن منتقل شود) را در این "
 "فیلد وارد نمایید."
 
-#: inc/meta-box.php:106
+#: inc/meta-box.php:91
 msgid "Based on global settings"
 msgstr "بر اساس تنظیمات همگانی"
 
-#: inc/meta-box.php:110
+#: inc/meta-box.php:95
 msgid ""
 "The value of this option only applied to this link. If you want to use "
 "global countdown settings, please select <code>Based on global settings</"
@@ -225,6 +349,114 @@ msgstr ""
 "مقدار این گزینه تنها بر روی این لینک اعمال می شود. اگر می خواهید از تنظیمات "
 "همگانی شمارش معکوس استفاده شود, لطفا گزینه <code>بر اساس تنظیمات همگانی</"
 "code> را انتخاب نمایید."
+
+#: inc/shortcodes.php:27 inc/widgets.php:20 inc/widgets.php:83
+msgid "Clink Links list"
+msgstr "لیست لینک های کلینک"
+
+#: inc/widgets.php:21
+msgid "Dispaly Clink plugin Links with this Widget"
+msgstr "نمایش لینک های افزونه کلینک با این ابزارک"
+
+#: inc/widgets.php:106
+msgid "Title:"
+msgstr "عنوان :"
+
+#: inc/widgets.php:115
+msgid "Category"
+msgstr "دسته بندی"
+
+#: inc/widgets.php:126
+msgid "Number of Links to show"
+msgstr "تعداد لینک ها برای نمایش دادن"
+
+#: inc/widgets.php:130
+msgid "Links Offset"
+msgstr "افست لینک ها"
+
+#: inc/widgets.php:135
+msgid "none"
+msgstr "هیچ‌کدام"
+
+#: inc/widgets.php:136
+msgid "ID"
+msgstr "شناسه (ID)"
+
+#: inc/widgets.php:137
+msgid "author"
+msgstr "نویسنده"
+
+#: inc/widgets.php:138
+msgid "title"
+msgstr "عنوان"
+
+#: inc/widgets.php:139
+msgid "date"
+msgstr "تاریخ"
+
+#: inc/widgets.php:140
+msgid "modified"
+msgstr "تاریخ ویرایش"
+
+#: inc/widgets.php:141
+msgid "rand"
+msgstr "تصادفی"
+
+#: inc/widgets.php:142
+msgid "clicks"
+msgstr "کلیک ها"
+
+#: inc/widgets.php:145
+msgid "Links order by"
+msgstr "مرتب سازی لینک ها بر اساس"
+
+#: inc/widgets.php:155
+msgid "DESC"
+msgstr "نزولی"
+
+#: inc/widgets.php:156
+msgid "ASC"
+msgstr "صعودی"
+
+#: inc/widgets.php:159
+msgid "Links order"
+msgstr "چیدمان لینک ها"
+
+#: inc/widgets.php:169
+msgid "Exclude links:"
+msgstr "محروم سازی لینک ها:"
+
+#: inc/widgets.php:171
+msgid "links IDs, separated by commas."
+msgstr "شناسه (ID) لینک ها ، با کاما (ویرگول انگلیسی) جدا کنید."
+
+#: inc/widgets.php:179
+msgid "Display links clicks?"
+msgstr "نمایش کلیک های لینک ها؟"
+
+#~ msgid "All Items"
+#~ msgstr "همه موارد"
+
+#~ msgid "Parent Item"
+#~ msgstr "آیتم اصلی"
+
+#~ msgid "Parent Item:"
+#~ msgstr "آیتم اصلی:"
+
+#~ msgid "New Item Name"
+#~ msgstr "نام آیتم  جدید"
+
+#~ msgid "Add New Item"
+#~ msgstr "افزودن آیتم جدید"
+
+#~ msgid "Edit Item"
+#~ msgstr "ویرایش آیتم"
+
+#~ msgid "Update Item"
+#~ msgstr "بروزرسانی آیتم"
+
+#~ msgid "View Item"
+#~ msgstr "مشاهده آیتم"
 
 #~ msgid ""
 #~ "The value of this option only applied to this link. If you want to use "
